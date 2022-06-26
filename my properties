@@ -1,0 +1,5 @@
+#commit
+#Tue Jun 21 20:10:29 MSK 2022
+user=postgres
+password=Martsin
+db=jdbc:postgresql://localhost:5432/Payments
