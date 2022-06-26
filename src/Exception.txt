@@ -1,0 +1,20 @@
+C:\Users\user\.jdks\openjdk-17.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\lib\idea_rt.jar=50268:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\bin" -Dfile.encoding=UTF-8 -classpath "D:\Курсы java\Home java\communal_payments\out\production\communal_payments;C:\Program Files\PostgreSQL\14\lib\postgresql-42.3.6.jar" com.belhard.lesson.Main
+connection is successful
+2022-10-23
+Exception in thread "main" org.postgresql.util.PSQLException: ОШИБКА: столбец "data_payments" имеет тип date, а выражение - integer
+  Подсказка: Перепишите выражение или преобразуйте его тип.
+  Позиция: 77
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:329)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:315)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:291)
+	at org.postgresql.jdbc.PgStatement.executeUpdate(PgStatement.java:265)
+	at com.belhard.lesson.dao.PaymentsBaseDao.<init>(PaymentsBaseDao.java:42)
+	at com.belhard.lesson.Main.main(Main.java:14)
+
+Process finished with exit code 1
+подключаемая ДБ -postgresql 14

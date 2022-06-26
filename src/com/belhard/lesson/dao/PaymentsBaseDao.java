@@ -68,7 +68,7 @@ public class PaymentsBaseDao implements PaymentsDao {
 
     @Override
     public String setPayments(int id, Person payer, String data, int check, int payments) throws ParseException {
-       
+
 //        DateFormat dateFormat= new SimpleDateFormat("dd/MM/yyyy");
 //        Date data_=dateFormat.parse(data);
         LocalDate data_=LocalDate.parse(data);
