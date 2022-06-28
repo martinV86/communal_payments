@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="314b1c92-b73d-4457-9249-f26f8cf761e5" name="Changes" comment="" />
+    <list default="true" id="314b1c92-b73d-4457-9249-f26f8cf761e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/belhard/lesson/payments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/belhard/lesson/util/ParsenUtilPayments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belhard/lesson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belhard/lesson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belhard/lesson/dao/PaymentsBaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belhard/lesson/dao/PaymentsBaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belhard/lesson/dao/PaymentsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belhard/lesson/dao/PaymentsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belhard/lesson/object/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belhard/lesson/object/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/belhard/lesson/servise/Servise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/belhard/lesson/servise/Servise.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,6 +105,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Курсы java\Home java\communal_payments" />
       <recent name="D:\Курсы java\Home java\communal_payments\src" />
       <recent name="D:\Курсы java\Home java\communal_payments\src\com\belhard\lesson" />
     </key>
